@@ -1,0 +1,326 @@
+
+body{
+
+   background-image:url('Images/back_img.jpg');
+   background-repeat:no-repeat;
+   background-size: cover;
+   margin: 0;
+   outline: 0;
+   padding: 0;
+   width: 100%;
+
+
+   
+}
+.main{
+   width:80%;
+   max-width: 500px;
+   max-height: 500px;
+   background:rgb(92, 92, 101);
+   border:0px;
+   margin:50px auto 0;
+   box-shadow: 10px 10px 5px;
+   border-radius: 40px;
+   padding:40px 35px;
+   text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head{
+   font-size: 40px;
+   font-weight: bold;
+   margin-left: 160px;
+   text-align: center;
+   width: 30vw;
+   color:white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.search{
+   width:100%;
+   display:flex;
+   text-align: center;
+   justify-content: space-between;
+
+}
+.search input{
+    border:0;
+    outline: 0;
+    background: #bfc7c7;
+    color:#555;
+    padding:10px 25px;
+    height: 30px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search  button{
+     border:0;
+     outline:0;
+     background:#c2c6c6;
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+}
+.search  button:hover{
+   background-color:rgb(173, 198, 129);
+}
+.search button img{
+    width:25px;
+}
+.wea_icon{
+    width:150px;
+   margin-top: 30px;
+}
+.temp{
+    font-size:55px;
+    font-weight:500px;
+    position: relative;
+    bottom: 30px;
+    color:white;
+
+}
+.city{
+   font-size:30px;
+   font-weight:400px;
+   position: relative;
+   bottom: 50px;
+   color: white;
+
+ }
+ .details{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:0 20px;
+   position: relative;
+   bottom: 70px;
+ }
+
+ .col{
+   margin-left: -20px;
+ }
+
+ .col , .col_2{
+   display:flex;
+   align-items: center;
+   text-align: center;
+   padding:10px;
+ }
+ .col img{
+   width:50px;
+   margin-right:17px;
+
+ }
+ .humidity,.air{
+
+   font-size: 20px;
+   font-weight:900px;
+   /* color: black; */
+   color: white;
+
+    
+ }
+ .ext{
+   position: relative;
+   bottom: 20px;
+ }
+ .col_2 img{
+
+    width:70px;
+    position: relative;
+    left:20px;
+    top:-20px;
+
+ }
+ .col_2{
+    margin-right: -60px;
+    margin-top: 30px;
+ }
+.qul{
+   position: relative;
+   top:0px;
+   right:190px;
+   font-size: 20px;
+}
+.green{
+   color: rgb(168, 222, 113);
+}
+.weather{
+   display: none;
+}
+.air,.ext,.qul{
+   color: white;
+}
+   
+@media (max-width:1200px) {
+
+   .main{
+      width:50%;
+      max-width: 450px;
+      max-height: 450px;
+  }
+  .search input{
+   height: 20px;
+   font-size: 15px;
+}
+
+.search  button{
+   width: 40px;
+   height: 40px;
+}
+   
+.wea_icon{
+   width: 130px;
+}
+.temp,.city{
+   font-size: 35px;
+}
+}
+.head{
+   font-size: 30px;
+   position: relative;
+  left:350px;
+   width: 30vw;
+}
+
+@media (max-width:750px){
+
+   body{
+      background-color: rgb(42, 57, 57);
+      background-image: none;
+   }
+   .main{
+      width:100%;
+      max-width: 350px;
+      max-height: 400px;
+  }
+  .search input{
+   height: 20px;
+   font-size: 10px;
+}
+
+.search  button{
+   width: 30px;
+   height: 30px;
+}
+   
+.wea_icon{
+   width: 120px;
+}
+.temp,.city{
+   font-size: 25px;
+   margin-top: 30px;
+}
+.sub{
+   position: relative;
+   top:5px;
+   left:-2px;
+   width: 5px;
+   border-radius: 50%;
+}
+.search button{
+   position: relative;
+   top:5px;
+}
+.col img{
+   width:40px;
+   margin-right:17px;
+
+}
+.humidity,.air{
+
+   font-size: 15px;
+}
+.col_2 img{
+
+   width:60px;
+   position: relative;
+   left:30px;
+   top:-20px;
+
+}
+.qul{
+   position: relative;
+   top:20px;
+   right:130px;
+ 
+  font-size: 15px;
+}
+.head{
+   margin-top: 20px;
+   font-size: 25px;
+   position: relative;
+   left:0px;
+   width: 40vw;
+}
+}
+
+@media (max-width:950px){
+
+   .main{
+      width:100%;
+      max-width: 350px;
+      max-height: 400px;
+  }
+  .search input{
+   height: 20px;
+   font-size: 20px;
+}
+
+.search  button{
+   width: 30px;
+   height: 30px;
+}
+   
+.wea_icon{
+   width: 120px;
+}
+.temp,.city{
+   font-size: 25px;
+   margin-top: 30px;
+}
+.sub{
+   position: relative;
+   top:5px;
+   left:-2px;
+   width: 5px;
+   border-radius: 50%;
+}
+.search button{
+   position: relative;
+   top:5px;
+}
+.col img{
+   width:40px;
+   margin-right:17px;
+
+}
+.humidity,.air{
+
+   font-size: 15px;
+}
+.col_2 img{
+
+   width:60px;
+   position: relative;
+   left:30px;
+   top:-20px;
+
+}
+.qul{
+   position: relative;
+   top:20px;
+   right:130px;
+ 
+  font-size: 15px;
+}
+.head{
+   margin-top: 20px;
+   font-size: 25px;
+   position: relative;
+   left:10px;
+   width: 40vw;
+}
+}
